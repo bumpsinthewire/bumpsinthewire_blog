@@ -57,10 +57,6 @@ disableHugoGeneratorInject = false
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
 
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  #
-  # gitUrl = ""
-
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   #
   disableReadOtherPosts = false
@@ -87,23 +83,10 @@ disableHugoGeneratorInject = false
   #
   enableGlobalLanguageMenu = true
 
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  #
-  customCSS = []
-  customJS  = []
-
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   #
   justifyContent = false  # Set "text-align: justify" to .post-content.
 
-  # Integrate Plausible.io
-  # plausibleDataDomain = 'test.com'
-  # plausibleScriptSource = 'https://plausible.io/js/script.js'
-
-  # Custom footer 
-  # If you want, you can easily override the default footer with your own content. 
-  #
   [params.footer]
     trademark = true
     rss = true
@@ -119,7 +102,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /home/"
+    logoText     = "cd bumpsinthewire/blog/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -129,17 +112,6 @@ disableHugoGeneratorInject = false
     # logoCursorAnimate  = "2s"
     # Append the current url pathname to logoText 
     # logoCursorPathname = true
-
-  # Commento is more than just a comments widget you can embed — 
-  # it’s a return to the roots of the internet. 
-  # An internet without the tracking and invasions of privacy. 
-  # An internet that is simple and lightweight. 
-  # An internet that is focused on interesting discussions, not ads. 
-  # A better internet.
-  # Uncomment this to enable Commento.
-  #
-  # [params.commento]
-  #   url = ""
 
   # Uncomment this if you want a portrait on your start page
   #
@@ -164,12 +136,6 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/alex-perkins"
-
-[languages]
-  [languages.en]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
   [[menu.main]]
