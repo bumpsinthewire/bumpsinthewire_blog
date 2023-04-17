@@ -102,7 +102,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "cd bumpsinthewire/blog/"
+    logoText     = "cd cables2clouds/bumpsinthewire/blog/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
