@@ -1,6 +1,6 @@
 ### Hello there 👋 I'm Alex
 
-![profile pic](/images/about/profile.jpeg)
+![profile pic](profile.jpeg)
 
 I currently work as a Senior Network Engineer for [Presidio Federal](https://presidiofederal.com). Most of my work revolves around modernizing data center infrastructure and assisting customers as they begin their transition to a hybrid, multi-cloud footprint.
 
