@@ -2,6 +2,7 @@
 title: "The three paradigms of networking"
 date: 2023-07-05
 draft: false
+toc: true
 ---
 
 # A long time ago in a galaxy far, far away
@@ -44,7 +45,7 @@ This is the paradigm that I'm least knowledgeable about but at the same time I'm
 
 Application networking is what I'm calling all of the hype around things like service mesh's that are used in microservices architectures. Side note- as a network engineer, it's a bit frustrating to see most in this space just call it networking and then there's basically no network engineers working on any of these products. From what I've seen, it's mostly developers and SRE's. I'm not sure why this is but I'm hoping it changes in the future. I think it's important to have a network engineer's perspective on these things. To me, application networking is really all about allowing services to talk to each other but higher up the stack than traditional networking engineering. For example, while the networking we know and leave mainly deals with layers 2 and 3, application networking deals with layers 4 through 7. This is where things like [Istio](https://istio.io) and [Envoy](https://www.envoyproxy.io) come into play. These are the tools that are used to build a service mesh.
 
-There are quite a few companies to watch out for in this space. Some of them being; [Isovalent](https://isovalent.com)- with their very, very popular [Cilium](https://cilium.io) project as well as ushering the "era of [eBPF](https://ebpf.io)", [Solo.io](https://www.solo.io), [Consul] (https://www.consul.io) which comes from one of my favorite companies- [Hashicorp](https://www.hashicorp.com), and [Buoyant](https://buoyant.io) who creates arguably the fastest and most lightweight proxy out there- [LinkerD](https://linkerd.io). There are many others but these are the ones that I've been keeping an eye on.
+There are quite a few companies to watch out for in this space. Some of them being; [Isovalent](https://isovalent.com)- with their very, very popular [Cilium](https://cilium.io) project as well as ushering the "era of [eBPF](https://ebpf.io)", [Solo.io](https://www.solo.io), [Consul](https://www.consul.io) which comes from one of my favorite companies- [Hashicorp](https://www.hashicorp.com), and [Buoyant](https://buoyant.io) who creates arguably the fastest and most lightweight proxy out there- [LinkerD](https://linkerd.io). There are many others but these are the ones that I've been keeping an eye on.
 
 ### Some final thoughts
 
